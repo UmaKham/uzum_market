@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/public/logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <title>Uzum Market - Интернет магазин</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <nav>
+          <div class="head">
+            <div class="left">
+              <ul>
+                <li><img src="/public/compass-icon.svg" alt="">Город:<a class="city" href="#">Ташкент</a></li>
+                <li>Пункт выдачи</li>
+              </ul>
+            </div>
+            <div class="title">
+              <p>Доставим ваш заказ бесплатно - всего за 1 день!</p>
+            </div>
+            <div class="right">
+              <ul>
+                <li>Вопрос-ответ</li>
+                <li>Мои заказы</li>
+                <li><img src="/public/flag.svg" alt=""></Img> Русский</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="header">
+            <div class="left">
+              <div class="logo">
+                <a href="#"><img src="public/uzum_market.svg" alt=""></a>
+              </div>
+              <div class="catalog">
+                <p><img src="/public/div.rect.svg" alt="">Каталог</p>
+              </div>
+            </div>
+            <div class="search">
+              <input type="search">
+              <button><img src="public/search.svg" alt=""></button>
+            </div>
+            <div class="right">
+              <ul>
+                <li><img src="/public/user.svg" alt="">Войти</li>
+                <li><img src="/public/heart.svg" alt="">Избранное</li>
+                <li><img src="/public/basket.svg" alt="">Корзина</li>
+              </ul>
+            </div>
+          </div>
+          <ul class="nav_catalog">
+            <li><img src="/public/frame_sale.png" alt=""> Рассрочка</li>
+            <li>Электроника</li>
+            <li>Бытовая техника</li>
+            <li>Одежда</li>
+            <li>Обувь</li>
+            <li>Аксессуары</li>
+            <li>Красота и уход</li>
+            <li>Здоровье</li>
+            <li>Товары для дома</li>
+            <li>Строительство и ремонт</li>
+            <li class="even">Еще <img src="/public/arrow_bottom.svg" alt=""></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="banner swiper-container">
+          <div class="banner_wrapper swiper-wrapper">
+            
+            <div class="slide swiper-slide">
+              <img class="swiper_img" src="/public/main_page_banner.jpg.png" alt="">
+            </div>
+            
+            <div class="slide swiper-slide">
+              <img class="swiper_img" src="/public/main_page_banner2.png" alt="">
+            </div>
+
+            <div class="slide swiper-slide">
+              <img class="swiper_img" src="/public/main_page_banner3.png" alt="">
+            </div>
+            
+            <div class="slide swiper-slide">
+              <img class="swiper_img" src="/public/main_page_banner4.png" alt="">
+            </div>
+
+            <div class="slide swiper-slide">
+              <img class="swiper_img" src="/public/main_page_banner5.png" alt="">
+            </div>
+
+            <div class="slide swiper-slide">
+              <img class="swiper_img" src="/public/main_page_banner6.png" alt="">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="products_box"></div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
