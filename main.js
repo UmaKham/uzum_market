@@ -9,9 +9,9 @@ let my_swiper = new Swiper('.banner', {
 
 let products_box = document.querySelector('.products_box')
 
-getData('/goods')
+getData('/goods?isBlackFriday=true')
   .then(res => {
-    products(res.data.splice(0, 20), products_box);
+    products(res.data, products_box);
   })
 
 export function products(arr, place) {
@@ -73,7 +73,7 @@ export function products(arr, place) {
     }
     if(products.isBlackFriday === true) {
       sale.classList.add('sale')
-      sale.innerHTML = 'Акция'
+      sale.innerHTML = 'Распродажа'
     }
     
     console.log();

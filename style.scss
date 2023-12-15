@@ -151,12 +151,14 @@ header{
 
 section{
   .container{
+    max-width: 1920px;
+    padding: 0 40px;
     margin: 0 auto;
     .banner{
+      max-width: 100%;
       margin-top: 40px;
       overflow: hidden;
       .banner_wrapper{
-        width: 1240px;
         margin: 0 auto;
         flex: 1 1 auto;
         align-items: center;
@@ -164,18 +166,33 @@ section{
         position: relative;
         .slide{
           width: 100%;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .title{
+      display: flex;
+      align-items: center;
+      padding-top: 20px;
+      cursor: pointer;
+      h2{
+        font-size: 28px;
+        img{
+          width: 40px;
+          height: 40px;
         }
       }
     }
     .products_box{
       margin-top: 40px;
-      padding: 0 40px;
       display: grid;
       grid-template-columns: repeat(5, 1fr);
       gap: 20px;
       position: relative;
       .item{
-        width: 270px;
+        width: 100%;
         background-color: rgba(49, 49, 196, 0.10);
         border-radius: 5px;
         position: relative;
@@ -201,8 +218,8 @@ section{
             color: white;
             padding: 5px;
             position: absolute;
-            top: 220px;
-            left: 20px;
+            top: 230px;
+            left: 10px;
           }
         }
         .name{
@@ -256,6 +273,16 @@ section{
           cursor: pointer;
         }
       }
+    }
+    .btn{
+      max-width: 100%;
+      border: none;
+      margin: 20px 20%;
+      padding: 15px 26%;
+      border-radius: 15px;
+      background-color: rgba(49, 49, 196, 0.10);
+      font-size: 16px;
+      white-space: nowrap;
     }
   }
 }
