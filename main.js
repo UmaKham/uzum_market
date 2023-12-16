@@ -147,3 +147,27 @@ close_btn.forEach(btn => {
     document.body.style.overflowY = 'visible'
   }
 })
+
+let class_name = ['headphones', 'appliances', 'clothes', 'shoes', 'accessories', 'beauty', 'health', 'household', 'construction', 'auto', 'children', 'hobbies', 'sport', 'food', 'chemistry', 'note', 'pet', 'book', 'garden']
+
+let img_arr = {
+  headphones: 'https://www.svgrepo.com/show/485063/headphone-part-2.svg',
+  appliances: 'https://www.svgrepo.com/show/252117/kitchen-pack-restaurant.svg',
+  clothes: 'https://www.svgrepo.com/show/234613/clothes-shirt.svg',
+  shoes: 'https://www.svgrepo.com/show/407365/running-shoe.svg',
+  accessories: 'https://www.svgrepo.com/show/427671/accessories-eyeglasses-fashion.svg',
+  beauty: 'https://www.svgrepo.com/show/257806/beauty-woman.svg',
+  health: 'https://www.svgrepo.com/show/421919/health-insurance-medical-medical.svg',
+  household: 'https://www.svgrepo.com/show/381967/home-furniture-property-real-households-belongings.svg',
+  construction: 'https://www.svgrepo.com/show/315984/paint-roller.svg',
+  auto: 'https://www.svgrepo.com/show/452176/car.svg',
+  children: 'https://www.svgrepo.com/show/493600/baby.svg',
+  hobbies: 'https://www.svgrepo.com/show/428731/creative-knowledge-lightbulb.svg',
+  sport: 'https://www.svgrepo.com/show/475629/basketball.svg',
+  food: 'https://www.svgrepo.com/show/454320/food-fruit-fruits-10.svg',
+  chemistry: 'https://www.svgrepo.com/show/231578/flask-chemistry.svg',
+  note: 'https://www.svgrepo.com/show/281422/note-notepad.svg',
+  pet: 'https://www.svgrepo.com/show/295859/pet-food-pet.svg',
+  book: 'https://www.svgrepo.com/show/444880/book.svg',
+  garden: 'https://www.svgrepo.com/show/165760/garden.svg',
+}

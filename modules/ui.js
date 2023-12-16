@@ -63,3 +63,18 @@ export function products(arr, place) {
     console.log();
   }
 }
+
+export function list_tegs(class_name, img_arr, place) {
+  let teg = document.createElement('div')
+  let title = document.createElement('div')
+  let img = document.createElement('img')
+  let p = document.createElement('p')
+  let img_arrow = document.createElement('img')
+
+  teg.classList.add('teg')
+  title.classList.add('title')
+
+  place.append(teg)
+  teg.append(title, img_arrow)
+  title.append(img, p)
+}
