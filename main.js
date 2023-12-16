@@ -1,82 +1,149 @@
 import Swiper from "swiper";
 import 'swiper/css'
 import {getData} from './modules/helpers'
+import {products} from './modules/ui'
 
 let my_swiper = new Swiper('.banner', {
   spaceBetween: 30,
   mousewheel: true,
+  autoplay: {
+    delay: 3000,
+  },
 })
 
-let products_box = document.querySelector('.products_box')
+//////////////////// REQUEST ////////////////////
+
+let sale_box = document.querySelector('.sale_box')
+let kitchen = document.querySelector('.kitchen')
 
 getData('/goods?isBlackFriday=true')
   .then(res => {
-    products(res.data, products_box);
+    products(res.data, sale_box);
   })
 
-export function products(arr, place) {
-  place.innerHTML = ''
-  for(let products of arr) {
-    let item = document.createElement('div')
-    
-    let img_box = document.createElement('div')
-    let img = document.createElement('img')
-    
-    let name = document.createElement('p')
-    
-    let rating = document.createElement('div')
-    let rating_star = document.createElement('img')
-    let rating_text = document.createElement('p')
-  
-    let price_box = document.createElement('div')
-    let price_per_month = document.createElement('span')
-    let price_origin = document.createElement('span')
-    let price_sale = document.createElement('p')
-  
-    let favourite = document.createElement('div')
-    let favourite_img = document.createElement('img')
-  
-    let sale = document.createElement('p')
-  
-    let basket = document.createElement('button')
-    let basket_img = document.createElement('img')
-  
-    place.append(item)
-    item.append(img_box, name, rating, price_box, basket)
-    img_box.append(img, favourite, sale)
-    rating.append(rating_star, rating_text)
-    price_box.append(price_per_month, price_origin, price_sale)
-    favourite.append(favourite_img)
-    basket.append(basket_img)
+getData('/goods?type=kitchen')
+  .then(res => {
+    products(res.data, kitchen);
+  })
 
-    item.classList.add('item')
-    img_box.classList.add('img_box')
-    name.classList.add('name')
-    favourite.classList.add('favourite')
-    rating.classList.add('rating')
-    rating_star.classList.add('rating_star')
-    rating_text.classList.add('rating_text')
-    price_box.classList.add('price_box')
-    price_per_month.classList.add('price_per_month')
-    price_origin.classList.add('price_origin')
-    price_sale.classList.add('price_sale')
-    basket.classList.add('basket')
-    
-    img.src = products.media[0]
-    name.innerHTML = products.title
-    rating_text.innerHTML = products.rating
-    price_per_month.innerHTML = `${(Math.round( products.price / 12))} сум/мес`
-    price_origin.innerHTML = `${products.price} сум`
-    price_sale.innerHTML = `${(products.price - (Math.round(products.price / 100) * products.salePercentage))} сум`
-    if(products.salePercentage === 0) {
-      price_sale.innerHTML = `${products.price} сум`
-    }
-    if(products.isBlackFriday === true) {
-      sale.classList.add('sale')
-      sale.innerHTML = 'Распродажа'
-    }
-    
-    console.log();
+//////////////////// CITY ////////////////////
+
+let city = ['Аккурган',
+  'Алмазар (Чиназский район)',
+  'Алмалык',
+  'Ангрен',
+  'Андижан',
+  'Асака',
+  'Ахангаран',
+  'Байсун',
+  'Бекабад',
+  'Бешарык',
+  'Бухара',
+  'Газалкент',
+  'Галаасия',
+  'Гиждуван',
+  'Гузар',
+  'Гулистан',
+  'Дангара',
+  'Денау',
+  'Джалакудук',
+  'Джизак',
+  'Жондор',
+  'Зангиота',
+  'Зарафшан',
+  'Ибрат',
+  'Каган',
+  'Каракитай',
+  'Каракуль',
+  'Карасу (Андижанская обл.)',
+  'Караулбазар',
+  'Карши',
+  'Касан',
+  'Каттакурган',
+  'Келес',
+  'Кибрай',
+  'Китаб',
+  'Коканд',
+  'Кувасай',
+  'Куксарай',
+  'Кунград',
+  'Кургантепа',
+  'Маргилан',
+  'Мубарек',
+  'Навои',
+  'Назарбек',
+  'Наманган',
+  'Нукус',
+  'Нурафшан',
+  'Пскент',
+  'Риштан',
+  'Самарканд',
+  'Выбран',
+  'Ташкент',
+  'Термез',
+  'Туракурган',
+  'Ургенч',
+  'Учкудук',
+  'Учкурган',
+  'Фергана',
+  'Фуркат',
+  'Ханабад',
+  'Хива',
+  'Ходжаабад',
+  'Ходжейли',
+  'Чартак',
+  'Чирчик',
+  'Чуст',
+  'Шафиркан',
+  'Шахрисабз',
+  'Шахрихан',
+  'Эшангузар',
+  'Яйпан',
+  'Янгибазар',
+  'Янгиюль']
+let city_list = document.querySelector('.city_list')
+
+city_reload(city, city_list)
+
+function city_reload(arr, place) {
+  place.innerHTML = ''
+  for(let item of arr) {
+    let city_box = document.createElement('div')
+    let city_name = document.createElement('p')
+
+    city_box.classList.add('city_box')
+  
+    place.append(city_box)
+    city_box.append(city_name)
+  
+    city_name.innerHTML = item
   }
 }
 
+//////////////////// BTN ////////////////////
+let login = document.querySelector('.login')
+let login_modal = document.querySelector('.login_modal')
+
+let city_btn = document.querySelector('.city')
+let city_modal = document.querySelector('.city_modal')
+
+let close_btn = document.querySelectorAll('.close')
+
+console.log(close_btn);
+
+login.onclick = () => {
+  login_modal.classList.remove('hide')
+  document.body.style.overflowY = 'hidden'
+}
+
+city_btn.onclick = () => {
+  city_modal.classList.remove('hide')
+}
+
+close_btn.forEach(btn => {
+  btn.onclick = () => {
+    city_modal.classList.add('hide')
+    login_modal.classList.add('hide')
+    document.body.style.overflowY = 'visible'
+  }
+})
