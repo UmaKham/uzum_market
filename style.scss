@@ -430,16 +430,19 @@ section{
 
 .catalog_list{
   background-color: white;
-  width: 300px;
+  width: 100%;
   position: absolute;
   top: 100px;
   z-index: 2;
-  padding: 40px 10px 40px 40px;
+  box-shadow: 0 50px 15px rgba(0, 0, 0, 0.5);
   .left_tegs{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 10px;
+    padding: 40px 10px 40px 40px;
     .teg{
+      width: 240px;
       display: flex;
       justify-content: space-between;
       .title{
@@ -455,8 +458,49 @@ section{
         }
       }
       img{
-        width: 22px;
-        height: 22px;
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+  .right_tegs{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 1210px;
+    padding: 10px;
+    .teg_title{
+      display: flex;
+      align-items: center;
+      span{
+        font-size: 18px;
+      }
+      img{
+        width: 30px;
+      }
+    }
+    .direction{
+      height: 628px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      .box{
+        padding-bottom: 20px;
+        ul{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          span{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 0;
+          }
+          li{
+            color: #98a3c2;
+            list-style: none;
+            font-weight: 400;
+            cursor: pointer;
+          }
+        }
       }
     }
   }

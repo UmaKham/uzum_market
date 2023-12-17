@@ -942,5 +942,83 @@
       ],
       "type": "kitchen"
     }
+  ],
+  "nav": [
+    {
+    "name_ru": "Электроника",
+    "img_src": "https://www.svgrepo.com/show/485063/headphone-part-2.svg"
+    },
+    {
+    "name_ru": "Бытовая техника",
+    "img_src": "https://www.svgrepo.com/show/252117/kitchen-pack-restaurant.svg"
+    },
+    {
+    "name_ru": "Одежда",
+    "img_src": "https://www.svgrepo.com/show/234613/clothes-shirt.svg"
+    },
+    {
+    "name_ru": "Обувь",
+    "img_src": "https://www.svgrepo.com/show/407365/running-shoe.svg"
+    },
+    {
+    "name_ru": "Аксессуары",
+    "img_src": "https://www.svgrepo.com/show/427671/accessories-eyeglasses-fashion.svg"
+    },
+    {
+    "name_ru": "Красота и уход",
+    "img_src": "https://www.svgrepo.com/show/257806/beauty-woman.svg"
+    },
+    {
+    "name_ru": "Здоровье",
+    "img_src": "https://www.svgrepo.com/show/421919/health-insurance-medical-medical.svg"
+    },
+    {
+    "name_ru": "Товары для дома",
+    "img_src": "https://www.svgrepo.com/show/381967/home-furniture-property-real-households-belongings.svg"
+    },
+    {
+    "name_ru": "Строительство и ремонт",
+    "img_src": "https://www.svgrepo.com/show/315984/paint-roller.svg"
+    },
+    {
+    "name_ru": "Автотовары",
+    "img_src": "https://www.svgrepo.com/show/452176/car.svg"
+    },
+    {
+    "name_ru": "Детские товары",
+    "img_src": "https://www.svgrepo.com/show/493600/baby.svg"
+    },
+    {
+    "name_ru": "Хобби и творчество",
+    "img_src": "https://www.svgrepo.com/show/428731/creative-knowledge-lightbulb.svg"
+    },
+    {
+    "name_ru": "Спорт и отдых",
+    "img_src": "https://www.svgrepo.com/show/475629/basketball.svg"
+    },
+    {
+    "name_ru": "Продукты питания",
+    "img_src": "https://www.svgrepo.com/show/454320/food-fruit-fruits-10.svg"
+    },
+    {
+    "name_ru": "Бытовая химия",
+    "img_src": "https://www.svgrepo.com/show/231578/flask-chemistry.svg"
+    },
+    {
+    "name_ru": "Канцтовары",
+    "img_src": "https://www.svgrepo.com/show/281422/note-notepad.svg"
+    },
+    {
+    "name_ru": "Зоотовары",
+    "img_src": "https://www.svgrepo.com/show/295859/pet-food-pet.svg"
+    },
+    {
+    "name_ru": "Книги",
+    "img_src": "https://www.svgrepo.com/show/444880/book.svg"
+    },
+    {
+    "name_ru": "Дача, сад и огород",
+    "img_src": "https://www.svgrepo.com/show/165760/garden.svg"
+    }
   ]
 }
