@@ -1,7 +1,7 @@
 import Swiper from "swiper";
 import 'swiper/css'
 import {getData} from './modules/helpers'
-import {products, list_tegs} from './modules/ui'
+import {products, list_tegs, city_reload} from './modules/ui'
 
 let my_swiper = new Swiper('.banner', {
   spaceBetween: 30,
@@ -11,26 +11,40 @@ let my_swiper = new Swiper('.banner', {
   },
 })
 
+let city_name_head = document.querySelector('.city_name')
+city_name_head.innerHTML = localStorage.getItem('city')
+
+let login_btn = document.querySelector('.login_btn')
+
+if(localStorage.getItem('user') !== null) {
+  login_btn.innerHTML = ''
+  let img = document.createElement('img')
+  login_btn.append(img)
+  img.src = '/public/user.svg'
+}
+
 //////////////////// REQUEST ////////////////////
 
 let sale_box = document.querySelector('.sale_box')
 let kitchen = document.querySelector('.kitchen')
-let left_tegs = document.querySelector('.left_tegs')
 
 getData('/goods?isBlackFriday=true')
   .then(res => {
     products(res.data, sale_box);
   })
 
-getData('/goods?type=kitchen')
+getData('/goods?type=Бытовая техника')
   .then(res => {
     products(res.data, kitchen);
   })
 
-getData('/nav')
+let nav_catalog = document.querySelector('.nav_catalog')
+
+getData('/goods')
   .then(res => {
-    list_tegs(res.data, left_tegs);
-  })
+    list_tegs(res.data, nav_catalog);
+})
+
 //////////////////// CITY ////////////////////
 
 let city = ['Аккурган',
@@ -110,33 +124,36 @@ let city_list = document.querySelector('.city_list')
 
 city_reload(city, city_list)
 
-function city_reload(arr, place) {
-  place.innerHTML = ''
-  for(let item of arr) {
-    let city_box = document.createElement('div')
-    let city_name = document.createElement('p')
 
-    city_box.classList.add('city_box')
-  
-    place.append(city_box)
-    city_box.append(city_name)
-  
-    city_name.innerHTML = item
-  }
-}
 
 //////////////////// BTN ////////////////////
-let login = document.querySelector('.login')
 let login_modal = document.querySelector('.login_modal')
 
 let city_btn = document.querySelector('.city')
 let city_modal = document.querySelector('.city_modal')
 
 let close_btn = document.querySelectorAll('.close')
+let login = document.querySelector('.login')
 
-console.log(close_btn);
+login.onsubmit = (e) => { 
+  e.preventDefault();
 
-login.onclick = () => {
+  let input = document.querySelector('.tel')
+
+  localStorage.setItem('user', input.value)
+
+  if(localStorage.getItem('user') !== null) {
+    city_modal.classList.add('hide')
+    login_modal.classList.add('hide')
+    document.body.style.overflowY = 'visible'
+    login_btn.innerHTML = ''
+    let img = document.createElement('img')
+    login_btn.append(img)
+    img.src = '/public/user.svg'
+  }
+}
+
+login_btn.onclick = () => {
   login_modal.classList.remove('hide')
   document.body.style.overflowY = 'hidden'
 }
@@ -152,3 +169,4 @@ close_btn.forEach(btn => {
     document.body.style.overflowY = 'visible'
   }
 })
+

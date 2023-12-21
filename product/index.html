@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.scss">
+    <link rel="stylesheet" href="style.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/public/logo.svg">
+    <title>Uzum Market - Интернет магазин</title>
+  </head>
+  <body>
+
+    <header></header>
+
+    <main>
+      <div class="container">
+        <div class="product_box">
+          <div class="product_img"></div>
+          <div class="product_description">
+            <div class="product_title">
+              <div class="rating">
+                <img src="/public/star.svg" alt="">
+                <p class="rating_score"></p>
+                <span>Более 3500 заказов</span>
+              </div>
+  
+              <h1 class="product_name"></h1>
+  
+              <p>Доставка: 1 день, бесплатно</p>
+            </div>
+
+            <div class="product_specification">
+              <span class="screen_size"><p class="size"></p></span>
+              <div class="buttons"></div>
+              
+              <span>Количество:</span>
+              
+              <div class="count_btn">
+                <button class="minus"><img src="/public/minus.svg" width="25" alt=""></button>
+                <p class="count">1</p>
+                <button class="plus"><img src="/public/plus.svg" width="25" alt=""></button>
+                <p>В наличии 100 штук</p>
+              </div>
+
+              <span>Цена:</span>
+              <p class="price"></p>
+              <p class="actual_price"></p>
+            
+              <p class="sale"></p>
+
+              <div class="btns">
+                <button class="add">Добавить в корзину</button>
+                <button class="buy">Купить в 1 клик</button>
+              </div>
+
+              <span>Кратко о товаре</span>
+              <p class="description"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

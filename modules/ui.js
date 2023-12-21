@@ -1,3 +1,27 @@
+export function city_reload(arr, place) {
+  place.innerHTML = ''
+  let city_modal = document.querySelector('.city_modal')
+  let city_name_head = document.querySelector('.city_name')
+  for(let item of arr) {
+    let city_box = document.createElement('div')
+    let city_name = document.createElement('p')
+
+    city_box.classList.add('city_box')
+  
+    place.append(city_box)
+    city_box.append(city_name)
+  
+    city_name.innerHTML = item
+
+    city_box.onclick = () => {
+      localStorage.setItem('city', item)
+      city_modal.classList.add('hide')
+      document.body.style.overflowY = 'visible'
+      city_name_head.innerHTML = localStorage.getItem('city')
+    }
+  }
+}
+
 export function products(arr, place) {
   place.innerHTML = ''
   for(let products of arr) {
@@ -60,28 +84,86 @@ export function products(arr, place) {
       sale.innerHTML = 'Распродажа'
     }
     
-    console.log();
+    item.onclick = () => {
+      location.assign(`/product/?id=${products.id}`)
+    }
   }
 }
 
 export function list_tegs(arr, place) {
   place.innerHTML = ''
-  for(let item of arr) {
-    let teg = document.createElement('div')
-    let title = document.createElement('div')
-    let img = document.createElement('img')
-    let p = document.createElement('p')
-    let img_arrow = document.createElement('img')
-  
-    teg.classList.add('teg')
-    title.classList.add('title')
-  
-    place.append(teg)
-    teg.append(title, img_arrow)
-    title.append(img, p)
+  let type_arr = []
+  arr.forEach(item => {
+    type_arr.push(item.type)
+  })
+  let filtered = type_arr.filter((value, index) => {
+    return type_arr.indexOf(value) === index;
+  })
 
-    p.innerHTML = item.name_ru
-    img.src = item.img_src
-    img_arrow.src = 'https://www.svgrepo.com/show/497722/arrow-right-1.svg'
+  let isBlackFriday_img = document.createElement('img')
+  let isBlackFriday = document.createElement('li')
+  isBlackFriday_img.src = '/public/frame_sale.png'
+  isBlackFriday_img.style.width = '25px'
+  isBlackFriday.innerHTML = 'Рассрочка'
+  isBlackFriday.prepend(isBlackFriday_img)
+  isBlackFriday.classList.add('active')
+  place.append(isBlackFriday)
+  for(let item of filtered) {
+    let teg = document.createElement('li')
+    place.append(teg)
+    teg.innerHTML = item
   }
+}
+
+export function header() {
+  let header = document.querySelector('header')
+  document.body.prepend(header)
+  header.innerHTML = `
+  <div class="container">
+    <nav>
+      <div class="head">
+        <div class="left">
+          <ul>
+            <li><img src="/public/compass-icon.svg" alt=""><a class="city" href="#">Город: <button class="city_name">Ташкент</button></a></li>
+            <li>Пункты выдачи</li>
+          </ul>
+        </div>
+        <div class="title">
+          <p>Доставим ваш заказ бесплатно - всего за 1 день!</p>
+        </div>
+        <div class="right">
+          <ul>
+            <li>Вопрос-ответ</li>
+            <li>Мои заказы</li>
+            <li><img src="/public/flag.svg" alt=""></img> Русский</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="left">
+          <div class="logo">
+            <a href="/"><img src="../public/uzum_market.svg" alt=""></a>
+          </div>
+          <div class="catalog">
+            <p><img src="/public/div.rect.svg" alt="">Каталог</p>
+          </div>
+        </div>
+        <div class="search">
+          <input type="search">
+          <button><img src="../public/search.svg" alt=""></button>
+        </div>
+        <div class="right">
+          <ul>
+            <li class="login_btn"><img src="/public/user.svg" alt="">Войти</li>
+            <li><img src="/public/heart.svg" alt="">Избранное</li>
+            <li><img src="/public/basket.svg" alt="">Корзина</li>
+          </ul>
+        </div>
+      </div>
+      
+      <ul class="nav_catalog"></ul>
+    
+      </nav>
+  </div>`
 }

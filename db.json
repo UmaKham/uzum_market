@@ -15,7 +15,7 @@
       "media": [
         "https://img.mvideo.ru/Big/50138276bb.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 2,
@@ -31,7 +31,7 @@
       "media": [
         "https://img.mvideo.ru/Big/50110498bb.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 3,
@@ -47,7 +47,7 @@
       "media": [
         "https://img.mvideo.ru/Big/50110498bb.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 4,
@@ -64,7 +64,7 @@
       "media": [
         "https://img.mvideo.ru/Big/50143597bb.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 5,
@@ -81,7 +81,7 @@
       "media": [
         "https://img.mvideo.ru/Big/50143056bb1.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 6,
@@ -98,7 +98,7 @@
       "media": [
         "https://img.mvideo.ru/Pdb/50046768b.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 7,
@@ -114,7 +114,7 @@
       "media": [
         "https://img.mvideo.ru/Big/50136546bb1.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 8,
@@ -131,7 +131,7 @@
       "media": [
         "https://img.mvideo.ru/Big/50136541bb1.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 9,
@@ -148,7 +148,7 @@
       "media": [
         "https://img.mvideo.ru/Big/40072385bb1.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 10,
@@ -164,12 +164,12 @@
       "media": [
         "https://img.mvideo.ru/Big/50132144bb.jpg"
       ],
-      "type": "furniture"
+      "type": "Фурнитура"
     },
     {
       "id": 11,
-      "title": "Системный блок игровой HYPERPC Concept 5",
-      "description": "Необычная форма HyperPC Concept 5 говорит сама за себя – перед тобой не просто системный блок, а настоящая машина, способная запускать любые игры без тормозов. Продвинутая начинка позволяет насладиться главными хитами сезона и выставить максимальные настройки. НА ТОП-УРОВНЕ Компьютер от HyperPC использует восьмиядерный процессор Intel Core i7 11700KF и 16 Гб оперативной памяти, чего с лихвой",
+      "title": "Системный блок игровой HYPERКомпьютеры Concept 5",
+      "description": "Необычная форма HyperКомпьютеры Concept 5 говорит сама за себя – перед тобой не просто системный блок, а настоящая машина, способная запускать любые игры без тормозов. Продвинутая начинка позволяет насладиться главными хитами сезона и выставить максимальные настройки. НА ТОП-УРОВНЕ Компьютер от HyperКомпьютеры использует восьмиядерный процессор Intel Core i7 11700KF и 16 Гб оперативной памяти, чего с лихвой",
       "colors": [
         "black"
       ],
@@ -182,7 +182,7 @@
         "https://img.mvideo.ru/Big/30058106bb1.jpg",
         "https://img.mvideo.ru/Big/30058106bb3.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 12,
@@ -200,7 +200,7 @@
         "https://img.mvideo.ru/Big/30065113bb1.jpg",
         "https://img.mvideo.ru/Big/30065113bb2.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 13,
@@ -216,7 +216,7 @@
       "media": [
         "https://img.mvideo.ru/Big/30062852bb.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 14,
@@ -234,7 +234,7 @@
         "https://img.mvideo.ru/Big/30065111bb1.jpg",
         "https://img.mvideo.ru/Big/30065111bb2.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 15,
@@ -252,7 +252,7 @@
         "https://img.mvideo.ru/Big/30058010bb1.jpg",
         "https://img.mvideo.ru/Big/30058010bb2.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 16,
@@ -270,7 +270,7 @@
         "https://img.mvideo.ru/Big/30057855bb5.jpg",
         "https://img.mvideo.ru/Big/30057855bb4.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 17,
@@ -288,7 +288,7 @@
         "https://img.mvideo.ru/Big/30043369bb1.jpg",
         "https://img.mvideo.ru/Big/30043369bb4.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 18,
@@ -306,7 +306,7 @@
         "https://img.mvideo.ru/Big/30063814bb1.jpg",
         "https://img.mvideo.ru/Big/30063814bb2.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 19,
@@ -324,7 +324,7 @@
         "https://img.mvideo.ru/Big/30026741bb1.jpg",
         "https://img.mvideo.ru/Big/30026741bb7.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 20,
@@ -341,7 +341,7 @@
         "https://img.mvideo.ru/Pdb/30064600b.jpg",
         "https://img.mvideo.ru/Pdb/30064600b1.jpg"
       ],
-      "type": "PC"
+      "type": "Компьютеры"
     },
     {
       "id": 21,
@@ -357,7 +357,7 @@
       "media": [
         "https://img.mvideo.ru/Big/50159382bb.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 22,
@@ -375,7 +375,7 @@
         "https://img.mvideo.ru/Big/50152746bb.jpg",
         "https://img.mvideo.ru/Big/50152745bb.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 23,
@@ -392,7 +392,7 @@
         "https://img.mvideo.ru/Big/10019053bb.jpg",
         "https://img.mvideo.ru/Big/10019053bb1.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 24,
@@ -409,7 +409,7 @@
         "https://img.mvideo.ru/Big/10028518bb.jpg",
         "https://img.mvideo.ru/Big/10028518bb1.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 25,
@@ -426,7 +426,7 @@
         "https://img.mvideo.ru/Pdb/10012693b.jpg",
         "https://img.mvideo.ru/Pdb/10012693b1.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 26,
@@ -443,7 +443,7 @@
         "https://img.mvideo.ru/Big/10022400bb.jpg",
         "https://img.mvideo.ru/Big/10022400bb2.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 27,
@@ -459,7 +459,7 @@
       "media": [
         "https://img.mvideo.ru/Big/10028676bb.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 28,
@@ -476,7 +476,7 @@
         "https://img.mvideo.ru/Big/10028852bb.jpg",
         "https://img.mvideo.ru/Big/10028852bb3.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 29,
@@ -494,7 +494,7 @@
         "https://img.mvideo.ru/Pdb/50052461b.jpg",
         "https://img.mvideo.ru/Pdb/50052460b.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 30,
@@ -512,7 +512,7 @@
         "https://img.mvideo.ru/Big/50131395bb.jpg",
         "https://img.mvideo.ru/Big/50173058bb.jpg"
       ],
-      "type": "audio"
+      "type": "Аудио"
     },
     {
       "id": 0.011139933448344408,
@@ -535,7 +535,7 @@
         "https://img.mvideo.ru/Big/small_pic/65/10030407bb1.jpg",
         "https://img.mvideo.ru/Big/small_pic/65/10030407bb3.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 0.14070230267720274,
@@ -561,7 +561,7 @@
         "https://img.mvideo.ru/Big/small_pic/65/10025791bb1.jpg",
         "https://img.mvideo.ru/Big/small_pic/65/10025791bb2.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 0.58006116125388,
@@ -587,7 +587,7 @@
         "https://img.mvideo.ru/Big/small_pic/65/10030411bb1.jpg",
         "https://img.mvideo.ru/Big/small_pic/65/10030411bb2.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 0.8474365959595023,
@@ -612,7 +612,7 @@
         "https://img.mvideo.ru/Big/small_pic/65/10030234bb1.jpg",
         "https://img.mvideo.ru/Big/small_pic/65/10030234bb2.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 0.8934953995981414,
@@ -637,12 +637,12 @@
         "https://img.mvideo.ru/Big/small_pic/65/10026500bb1.jpg",
         "https://img.mvideo.ru/Big/small_pic/65/10026500bb2.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 0.1452291405255206,
       "title": "Телевизор Hisense 55U7HQ",
-      "description": "Телевизор Hisense 55U7HQ оснащен LED-экраном с диагональю 55 дюймов и разрешением 3840 х 2160 пикселей. Он поддерживает технологию HDR10. Акустика представлена двумя фронтальными динамиками, их суммарная мощность — 20 Вт. Эта модель работает под управлением операционной системы Vidaa. Доступны беспроводные решения Wi-Fi и Bluetooth. Пульт ДУ входит в комплект поставки. Для подключения к интернету и локальной сети есть разъем LAN. Взаимодействие с внешними устройствами и накопителями обеспечивают интерфейсы HDMI, USB и RACA audio.",
+      "description": "Телевизор Hisense 55U7HQ оснащен LED-экраном с диагональю 55 дюймов и разрешением 3840 х 2160 пикселей. Он поддерживает технологию HDR10. Акустика представлена двумя фронтальными динамиками, их суммарная мощность — 20 Вт. Эта модель работает под управлением операционной системы Vidaa. Доступны беспроводные решения Wi-Fi и Bluetooth. Пульт ДУ входит в комплект поставки. Для подключения к интернету и локальной сети есть разъем LAN. Взаимодействие с внешними устройствами и накопителями обеспечивают интерфейсы HDMI, USB и RACA Аудио.",
       "colors": [
         "black"
       ],
@@ -659,7 +659,7 @@
         "https://img.mvideo.ru/Pdb/small_pic/65/10030424b1.jpg",
         "https://img.mvideo.ru/Pdb/small_pic/65/10030424b2.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 0.30766659663183327,
@@ -682,12 +682,12 @@
         "https://img.mvideo.ru/Big/small_pic/65/10031232bb1.jpg",
         "https://img.mvideo.ru/Big/small_pic/65/10031232bb2.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 0.8031328499576555,
       "title": "Телевизор Philips 55OLED807/12",
-      "description": "Телевизор Philips 55OLED807/12 оснащен LED-экраном с диагональю 55 дюймов и разрешением 3840 х 2160 пикселей. Он поддерживает технологию HDR10. Акустика представлена двумя фронтальными динамиками, их суммарная мощность — 25 Вт. Эта модель работает под управлением операционной системы Vidaa. Доступны беспроводные решения Wi-Fi и Bluetooth. Пульт ДУ входит в комплект поставки. Для подключения к интернету и локальной сети есть разъем LAN. Взаимодействие с внешними устройствами и накопителями обеспечивают интерфейсы HDMI, USB и RACA audio.",
+      "description": "Телевизор Philips 55OLED807/12 оснащен LED-экраном с диагональю 55 дюймов и разрешением 3840 х 2160 пикселей. Он поддерживает технологию HDR10. Акустика представлена двумя фронтальными динамиками, их суммарная мощность — 25 Вт. Эта модель работает под управлением операционной системы Vidaa. Доступны беспроводные решения Wi-Fi и Bluetooth. Пульт ДУ входит в комплект поставки. Для подключения к интернету и локальной сети есть разъем LAN. Взаимодействие с внешними устройствами и накопителями обеспечивают интерфейсы HDMI, USB и RACA Аудио.",
       "colors": [
         "black"
       ],
@@ -703,7 +703,7 @@
         "https://img.mvideo.ru/Big/small_pic/65/10031758bb1.jpg",
         "https://img.mvideo.ru/Big/small_pic/65/10031758bb2.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 0.060016578071321325,
@@ -725,7 +725,7 @@
         "https://img.mvideo.ru/Big/small_pic/65/10031348bb1.jpg",
         "https://img.mvideo.ru/Big/small_pic/65/10031348bb2.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 0.8673838511087768,
@@ -749,7 +749,7 @@
         "https://img.mvideo.ru/Big/small_pic/65/10029729bb1.jpg",
         "https://img.mvideo.ru/Big/small_pic/65/10029729bb2.jpg"
       ],
-      "type": "TV"
+      "type": "Телевизоры"
     },
     {
       "id": 31,
@@ -769,7 +769,7 @@
         "https://img.mvideo.ru/Big/20080442bb5.jpg",
         "https://www.mvideo.ru/products/holodilnik-gorenje-nrk6191ps4-20080442"
       ],
-      "type": "kitchen"
+      "type": "Бытовая техника"
     },
     {
       "id": 32,
@@ -789,7 +789,7 @@
         "https://img.mvideo.ru/Big/20064638bb2.jpg",
         "https://img.mvideo.ru/Big/20064638bb3.jpg"
       ],
-      "type": "kitchen"
+      "type": "Бытовая техника"
     },
     {
       "id": 33,
@@ -806,7 +806,7 @@
         "https://img.mvideo.ru/Pdb/20040702b2.jpg",
         "https://img.mvideo.ru/Pdb/20040702b3.jpg"
       ],
-      "type": "kitchen"
+      "type": "Бытовая техника"
     },
     {
       "id": 34,
@@ -823,7 +823,7 @@
         "https://img.mvideo.ru/Big/20066196bb2.jpg",
         "https://img.mvideo.ru/Big/20066196bb3.jpg"
       ],
-      "type": "kitchen"
+      "type": "Бытовая техника"
     },
     {
       "id": 35,
@@ -844,7 +844,7 @@
         "https://img.mvideo.ru/Big/small_pic/80/20044905bb3.jpg",
         "https://img.mvideo.ru/Big/20044905bb3.jpg"
       ],
-      "type": "kitchen"
+      "type": "Бытовая техника"
     },
     {
       "id": 36,
@@ -865,7 +865,7 @@
         "https://img.mvideo.ru/Big/20071642bb3.jpg",
         "https://img.mvideo.ru/Big/20071642bb4.jpg"
       ],
-      "type": "kitchen"
+      "type": "Бытовая техника"
     },
     {
       "id": 37,
@@ -882,7 +882,7 @@
         "https://img.mvideo.ru/Big/20078660bb2.jpg",
         "https://img.mvideo.ru/Big/20078660bb3.jpg"
       ],
-      "type": "kitchen"
+      "type": "Бытовая техника"
     },
     {
       "id": 38,
@@ -899,7 +899,7 @@
         "https://img.mvideo.ru/Pdb/400032920b2.jpg",
         "https://img.mvideo.ru/Pdb/400032920b3.jpg"
       ],
-      "type": "kitchen"
+      "type": "Бытовая техника"
     },
     {
       "id": 39,
@@ -917,7 +917,7 @@
         "https://img.mvideo.ru/Pdb/20056837b3.jpg",
         "https://img.mvideo.ru/Pdb/20056837b4.jpg"
       ],
-      "type": "kitchen"
+      "type": "Бытовая техника"
     },
     {
       "id": 40,
@@ -940,85 +940,7 @@
         "https://img.mvideo.ru/Big/20063431bb10.jpg",
         "https://img.mvideo.ru/Big/20063431bb12.jpg"
       ],
-      "type": "kitchen"
-    }
-  ],
-  "nav": [
-    {
-    "name_ru": "Электроника",
-    "img_src": "https://www.svgrepo.com/show/485063/headphone-part-2.svg"
-    },
-    {
-    "name_ru": "Бытовая техника",
-    "img_src": "https://www.svgrepo.com/show/252117/kitchen-pack-restaurant.svg"
-    },
-    {
-    "name_ru": "Одежда",
-    "img_src": "https://www.svgrepo.com/show/234613/clothes-shirt.svg"
-    },
-    {
-    "name_ru": "Обувь",
-    "img_src": "https://www.svgrepo.com/show/407365/running-shoe.svg"
-    },
-    {
-    "name_ru": "Аксессуары",
-    "img_src": "https://www.svgrepo.com/show/427671/accessories-eyeglasses-fashion.svg"
-    },
-    {
-    "name_ru": "Красота и уход",
-    "img_src": "https://www.svgrepo.com/show/257806/beauty-woman.svg"
-    },
-    {
-    "name_ru": "Здоровье",
-    "img_src": "https://www.svgrepo.com/show/421919/health-insurance-medical-medical.svg"
-    },
-    {
-    "name_ru": "Товары для дома",
-    "img_src": "https://www.svgrepo.com/show/381967/home-furniture-property-real-households-belongings.svg"
-    },
-    {
-    "name_ru": "Строительство и ремонт",
-    "img_src": "https://www.svgrepo.com/show/315984/paint-roller.svg"
-    },
-    {
-    "name_ru": "Автотовары",
-    "img_src": "https://www.svgrepo.com/show/452176/car.svg"
-    },
-    {
-    "name_ru": "Детские товары",
-    "img_src": "https://www.svgrepo.com/show/493600/baby.svg"
-    },
-    {
-    "name_ru": "Хобби и творчество",
-    "img_src": "https://www.svgrepo.com/show/428731/creative-knowledge-lightbulb.svg"
-    },
-    {
-    "name_ru": "Спорт и отдых",
-    "img_src": "https://www.svgrepo.com/show/475629/basketball.svg"
-    },
-    {
-    "name_ru": "Продукты питания",
-    "img_src": "https://www.svgrepo.com/show/454320/food-fruit-fruits-10.svg"
-    },
-    {
-    "name_ru": "Бытовая химия",
-    "img_src": "https://www.svgrepo.com/show/231578/flask-chemistry.svg"
-    },
-    {
-    "name_ru": "Канцтовары",
-    "img_src": "https://www.svgrepo.com/show/281422/note-notepad.svg"
-    },
-    {
-    "name_ru": "Зоотовары",
-    "img_src": "https://www.svgrepo.com/show/295859/pet-food-pet.svg"
-    },
-    {
-    "name_ru": "Книги",
-    "img_src": "https://www.svgrepo.com/show/444880/book.svg"
-    },
-    {
-    "name_ru": "Дача, сад и огород",
-    "img_src": "https://www.svgrepo.com/show/165760/garden.svg"
+      "type": "Бытовая техника"
     }
   ]
 }
